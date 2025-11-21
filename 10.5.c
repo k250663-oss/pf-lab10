@@ -11,7 +11,7 @@ int main() {
     int marks[stud];
     int gmarks = 0;
     for(int i = 0 ; i<stud ; i++){
-        printf("enter name and marks of student%d:");
+        printf("enter name and marks of student%d:" , i+1);
         scanf("%s %d" , name[i] , &marks[i]);
     }
     for(int i =0 ;i <= (stud-1) ; i++){
@@ -31,3 +31,4 @@ int main() {
 
     return 0;
 }
+
